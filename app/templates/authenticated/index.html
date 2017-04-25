@@ -1,0 +1,23 @@
+{% extends "common/base.html" %}
+
+{% block title %}Welcome Inside!{% endblock %}
+
+{% block main %}
+
+<!-- Main --> 
+<div> 
+
+  <h2 class="page-header">
+  Hi,朋友
+  </h2>
+
+  <p>这里会有一些内容</p>
+  <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+
+  <p>当前用户是:
+  {{ current_user.username }}
+  </p>
+
+</div> 
+
+{% endblock %}

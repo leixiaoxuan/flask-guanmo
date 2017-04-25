@@ -1,0 +1,7 @@
+亲爱的 {{ user.username }},
+欢迎注册 观摩机车!
+确认您的账户： 请点击以下链接以确认这个电子邮箱是您的:
+{{ url_for('users.confirm', token=token, _external=True) }}
+感谢您
+观摩机车团队
+注意: 回复此邮件地址将没有回应.
